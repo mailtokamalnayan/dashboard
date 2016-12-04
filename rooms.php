@@ -1,8 +1,39 @@
-<?php include 'includes/head.php'; ?>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Beetle — Bookings</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/dashboard.css" rel="stylesheet">
+  </head>
 
   <body>
 
-  <?php include 'includes/nav_top.php'; ?>
+    <nav class="navbar navbar-dark navbar-fixed-top bg-inverse">
+      <button type="button" class="navbar-toggler hidden-sm-up" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" aria-label="Toggle navigation"></button>
+      <a class="navbar-brand" href="#">Beetle</a>
+      <div id="navbar">
+        <nav class="nav navbar-nav float-xs-left">
+          <a class="nav-item nav-link" href="#">Dashboard</a>
+<!--           <a class="nav-item nav-link" href="#">Settings</a>
+          <a class="nav-item nav-link" href="#">Profile</a>
+          <a class="nav-item nav-link" href="#">Help</a> -->
+        </nav>
+        <form class="float-xs-right">
+          <input type="text" class="form-control" placeholder="Search...">
+        </form>
+      </div>
+    </nav>
 
     <!-- Modals -->
     <!-- View -->
@@ -86,7 +117,15 @@
             <li class="active"><a href="#">Bookings <span class="sr-only">(current)</span></a></li>
             <li><a href="#">Rooms</a></li>
             <li><a href="#">History</a></li>
+            <!-- <li><a href="#">Export</a></li> -->
           </ul>
+<!--           <ul class="nav nav-sidebar">
+            <li><a href="">Nav item</a></li>
+            <li><a href="">Nav item again</a></li>
+            <li><a href="">One more nav</a></li>
+            <li><a href="">Another nav item</a></li>
+            <li><a href="">More navigation</a></li>
+          </ul> -->
         </div>
         <div class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 main">
           <h2>Bookings</h2>
